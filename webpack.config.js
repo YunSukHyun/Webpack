@@ -14,6 +14,7 @@ module.exports = {
     static: {
       directory: path.resolve(__dirname, "dist"),
     },
+    devtool: "source-map",
     port: 3000,
     open: true,
     hot: true,
