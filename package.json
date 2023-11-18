@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "dev": "webpack serve"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "html-webpack-plugin": "^5.5.3",
     "sass": "^1.69.5",
     "sass-loader": "^13.3.2",
-    "style-loader": "^3.3.3"
+    "style-loader": "^3.3.3",
+    "webpack-dev-server": "^4.15.1"
   }
 }
